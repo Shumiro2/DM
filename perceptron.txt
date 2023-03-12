@@ -1,0 +1,29 @@
+\item \textbf{Perceptron}
+
+El perceptrón es la unidad principal para el desarrollo de una red neuronal \cite{NN}. La estructura básica de un perceptrón se puede observar en la Figura \ref{fig:per}. De manera general recibe como entrada la información a analizar (X), los cuales son ponderados mediante pesos (w). Luego son promediados para finalmente pasar por una función de activación que dará como resultado una única salida. 
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/percep.jpg}
+	\caption{Estructura perceptrón \cite{27}.}
+	\label{fig:per}
+\end{figure}
+
+En forma de ecuación la Figura \ref{fig:per} puede representarse como la ecuación \ref{ec. per}
+\begin{equation}
+  \label{eq:1}
+y = f.(w_{0}+\sum_{i=1}^{n}x_{i}.w_{i}) 
+\end{equation}
+
+
+
+
+Donde:
+
+\begin{itemize}
+    \item f = Función de activación no lineal;
+     \item xi= Entradas;
+     \item wi= Pesos;
+     \item y = Salida;
+\end{itemize}
